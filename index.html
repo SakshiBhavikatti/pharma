@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pharma System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Medicine Catalog</h1>
+        <input type="text" id="searchInput" placeholder="Search...">
+        <select id="filterSelect">
+            <option value="">All</option>
+            <option value="painkiller">Painkillers</option>
+            <option value="antibacterial">antibacterial</option>
+            <option value ="antiviral">antiviral</option>
+            <option value ="anesthetics">anesthetics</option>
+            <option value ="anti-allergics">anti-allergics</option>
+            <option value ="anticonvulsants">anticonvulsants</option>
+            <option value ="antifungal">antifungal</option>
+            <option value ="bloodpressure">bloodpressure</option>
+            <option value ="thyroxin">thyroxin</option>
+            
+            <!-- Add more categories as needed -->
+        </select>
+        <div id="medicineList">
+            <!-- Medicine items will be dynamically added here -->
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
